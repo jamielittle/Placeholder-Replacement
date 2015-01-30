@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlaceholderReplacement", "PlaceholderReplacement\PlaceholderReplacement.csproj", "{A4BC0FCD-1917-4E70-B92A-861969A73029}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebProject", "WebProject\WebProject.csproj", "{CDBEC9D3-69EA-4276-80C3-79C1D021BAD5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{A4BC0FCD-1917-4E70-B92A-861969A73029}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4BC0FCD-1917-4E70-B92A-861969A73029}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4BC0FCD-1917-4E70-B92A-861969A73029}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDBEC9D3-69EA-4276-80C3-79C1D021BAD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDBEC9D3-69EA-4276-80C3-79C1D021BAD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDBEC9D3-69EA-4276-80C3-79C1D021BAD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDBEC9D3-69EA-4276-80C3-79C1D021BAD5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
