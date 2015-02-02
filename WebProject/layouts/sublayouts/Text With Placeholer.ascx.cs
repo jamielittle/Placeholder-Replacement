@@ -11,6 +11,12 @@ namespace WebProject.layouts.sublayouts
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            BindDatasources();
+        }
+
+        private void BindDatasources()
+        {
+            scText.Item = DataSourceItem;
         }
     }
 }

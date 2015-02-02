@@ -450,8 +450,7 @@ namespace PlaceholderReplacement
     /// <param name="placeholderQualifiedKey">The placeholder qualified key.</param><param name="controlKey">The control key.</param>
     /// <returns>
     /// <c>true</c> if the specified placeholder qualified key matches the control key; otherwise, <c>false</c>.
-    /// 
-    /// </returns>
+    /// /// </returns>
     public static bool IsMatch(string placeholderQualifiedKey, string controlKey)
     {
       Assert.ArgumentNotNullOrEmpty(placeholderQualifiedKey, "placeholderQualifiedKey");
