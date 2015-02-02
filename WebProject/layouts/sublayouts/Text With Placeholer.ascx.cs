@@ -7,10 +7,16 @@ using System.Web.UI.WebControls;
 
 namespace WebProject.layouts.sublayouts
 {
-    public partial class Text_With_Placeholer : System.Web.UI.UserControl
+    public partial class Text_With_Placeholer : SublayoutBase
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            BindDatasources();
+        }
+
+        private void BindDatasources()
+        {
+            scText.Item = DataSourceItem;
         }
     }
 }
